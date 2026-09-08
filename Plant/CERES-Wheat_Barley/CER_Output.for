@@ -1661,7 +1661,7 @@
               vnpcmc = ' -99.0'
             ELSE
               vnpcmc = ' '
-              WRITE (vnpcmc,'(F6.2)') vnpcm
+              WRITE (vnpcmc,'(F7.2)') vnpcm
             ENDIF
             IF (gnpcm.LE.0) THEN
               gnpcmc = ' -99.0'
